@@ -1,0 +1,20 @@
+package a.pkgimplements.printable;
+interface printable
+{
+    void print();
+}
+public class AImplementsPrintable {
+
+    public void print ()
+    {
+        System.out.println("Hello");
+    }
+    public static void main(String[] args)
+
+    {
+        AImplementsPrintable obj=new AImplementsPrintable();
+        obj.print();
+      
+    }
+    
+}

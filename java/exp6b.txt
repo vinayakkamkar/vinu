@@ -1,0 +1,85 @@
+class Add
+{
+    private int x;
+    private int y;
+    public void setAdd (int x, int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
+    public void getAdd()
+    {
+        System.out.println("sum of x + y =" +(x+y));
+    }        
+}
+
+class Sub
+{
+    private int x;
+    private int y;
+    public void setSub (int x, int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
+    public void getSub()
+    {
+        System.out.println("Sub of x - y =" +(x-y));
+    }        
+}
+
+
+class Multi
+{
+    private int x;
+    private int y;
+    public void setMulti (int x, int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
+    public void getMulti()
+    {
+        System.out.println("Multi of x * y =" +(x*y));
+    }        
+}
+
+
+class Div
+{
+    private int x;
+    private int y;
+    public void setDiv (int x, int y)
+    {
+        this.x=x;
+        this.y=y;
+    }
+    public void getDiv()
+    {
+        System.out.println("Div of x / y =" +(x/y));
+    }        
+}
+
+public class Calculater6b 
+{
+    public static void main(String[] args) 
+    {
+        Add a=new Add();
+        a.setAdd(25, 20);
+        a.getAdd();
+        
+        Sub s=new Sub();
+        s.setSub(40, 20);
+        s.getSub();
+        
+        Multi m=new Multi();
+        m.setMulti(25, 4);
+        m.getMulti();
+        
+        Div d=new Div();
+        d.setDiv(25, 5);
+        d.getDiv();
+       
+    }
+    
+}

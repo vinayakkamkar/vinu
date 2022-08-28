@@ -1,0 +1,22 @@
+interface Animal{
+    public void AnimalSound();
+    public void sleep();
+}
+class Cat implements Animal{
+    public void AnimalSound(){
+        System.out.println("The Cat says: meow");
+    }
+    public void sleep(){
+        System.out.println("zzz...");
+    }
+}
+public class Main {
+
+   
+    public static void main(String[] args) {
+       Cat myCat = new Cat();
+       myCat.AnimalSound();
+       myCat.sleep();
+    }
+    
+}
